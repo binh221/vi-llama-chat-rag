@@ -87,9 +87,8 @@ with gr.Blocks(
     )
 ) as demo:
     gr.Markdown(
-        """# Retrieval Augmented Generation - Chat for Vietnamese \n
-                Kết hợp RAG với VinaLLama trong việc ứng dụng chatbot vào hệ thống giáo dục.
-                """
+        """# Chatbot-HG-Vietnamese \n
+                              """
     )
     with gr.Row():
         with gr.Column(scale=1, variant="panel"):

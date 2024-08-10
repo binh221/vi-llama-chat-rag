@@ -14,7 +14,7 @@ from util.utils import load_embedding_model, load_text_splitter
 
 
 def load_default_documents(text_splitter):
-    path = "data/chatbot_knowledge.docx"
+    path = "data/chatbot_knowledge.txt"
     pages = TextLoader(path).load()
     documents = text_splitter.split_documents(pages)
     return documents
